@@ -1,2 +1,2 @@
-# responsive-portfo-io
+# responsive-portfolio
 My portfolio site
