@@ -26,7 +26,7 @@ a {
 	color: #d3b82d;
 }
 a:hover {
-	color: #000;
+	color: transparent;
 }
 address {
 	margin-top: 3%;
