@@ -9,6 +9,13 @@
 	display: inline-block;
 }
 
+#gifs-rows img {
+	cursor: pointer;
+}
+#gifs-rows .gif-file {
+	display: none;
+}
+
 .featured-color-change {
 	color: #d3b82d;
 }
