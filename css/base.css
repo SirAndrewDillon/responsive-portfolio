@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:900|Fredericka+the+Great|Oswald:700|Vidaloka);
+
 @font-face {
   font-family: 'Avenir';
   src: url('../fonts/AvenirNextLTPro-Regulard41d.eot?#iefix')
@@ -17,6 +21,19 @@ body {
 
 html {
   height: 100%;
+}
+
+.line1 {
+  font-size: 1.5;
+}
+
+.line2 {
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+  font-size: 5em;
 }
 
 .contact {
