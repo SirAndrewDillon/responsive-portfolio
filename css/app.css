@@ -1,0 +1,656 @@
+.color-tab:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 14px 0 14px;
+  position: absolute;
+  top: 45%;
+  left: -9px;
+  z-index: -1;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: all 0.2s 0s ease-in-out;
+}
+
+#project-1.active .color-tab:before {
+  border-color: #e34925 transparent transparent transparent;
+}
+
+#project-1 .color-tab:before {
+  border-color: #b62323 transparent transparent transparent;
+}
+
+#project-2 .color-tab:before {
+  border-color: #b62323 transparent transparent transparent;
+}
+
+#project-3 .color-tab:before {
+  border-color: #a72734 transparent transparent transparent;
+}
+
+#project-4 .color-tab:before {
+  border-color: #0ae0ab transparent transparent transparent;
+}
+
+#project-5 .color-tab:before {
+  border-color: #115f9a transparent transparent transparent;
+}
+
+#project-6 .color-tab:before {
+  border-color: #89b92d transparent transparent transparent;
+}
+
+#project-7 .color-tab:before {
+  border-color: #ffa500 transparent transparent transparent;
+}
+
+/*#project-8 .color-tab:before{
+  border-color: #ffa500 transparent transparent transparent;
+}*/
+
+.active .color-tab:before {
+  left: -14px;
+  opacity: 1;
+  transition: all 0.2s 1s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.color-tab {
+  position: relative;
+  z-index: 1;
+}
+
+#project-1 .bg-section {
+  background-image: url(../img/enter-test-1.jpg);
+}
+
+#project-2 .bg-section {
+  background-image: url(../img/unit-test-1.jpg);
+}
+
+#project-3 .bg-section {
+  background-image: url(../img/food.png);
+}
+
+#project-4 .bg-section {
+  background-image: url(../img/somos-dane-l.jpg);
+}
+
+#project-5 .bg-section {
+  background-image: url(../img/cool-piano.png);
+}
+
+#project-6 .bg-section {
+  background-image: url(../img/CSS.png);
+}
+
+#project-7 .bg-section {
+  background-image: url(../img/lightning.png);
+}
+
+/*#project-8 .bg-section{
+  background-image: url(../img/alqueria-l.jpg);
+}*/
+
+.section h2,
+.section h6 {
+  color: white;
+}
+
+/* Old styles */
+
+#project-1 .color-tab {
+  background-color: #e34925;
+  background-size: cover;
+  /*background-image: url(../img/red-bg.png); */
+}
+
+#project-2 .color-tab {
+  background-color: #b62323;
+  background-size: unset;
+  /*background-image: url(../img/orange-bg.png); */
+}
+
+#project-3 .color-tab {
+  background-color: #a72734;
+}
+
+#project-4 .color-tab {
+  background-color: #0ae0ab;
+}
+
+#project-5 .color-tab {
+  background-color: #115f9a;
+}
+
+#project-6 .color-tab {
+  background-color: #89b92d;
+}
+
+#project-7 .color-tab {
+  background-color: #ffa500;
+}
+
+.color-tab {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  font-size: 1rem;
+  overflow: visible;
+  background-image: url(../img/transparent-4732156_1920.png);
+  background-blend-mode: multiply;
+  transition: all 0.4s linear;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* .no-backgroundblendmode .color-tab {
+  background-image: none;
+  background-blend-mode: none;
+} */
+
+.color-tab {
+  width: 50%;
+  height: 100%;
+}
+
+.contact-bg {
+  left: 1114px;
+  bottom: 798px;
+  right: 48px;
+  top: 48px;
+  z-index: 200;
+  background: transparent;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  will-change: bottom, left;
+  position: absolute;
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+#project-1 .contact-bg:before {
+  background-color: #e34925;
+}
+
+#project-2 .contact-bg:before {
+  background-color: #b62323;
+}
+
+#project-3 .contact-bg:before {
+  background-color: #a72734;
+}
+
+.active .contact-bg:before {
+  -webkit-transition: opacity 0.5s 0s,
+    -webkit-transform 0.6s 0.75s cubic-bezier(0.63, -0.7, 0.3, 1.2);
+  transition: opacity 0.5s 0s,
+    transform 0.6s 0.75s cubic-bezier(0.63, -0.7, 0.3, 1.2);
+  opacity: 1;
+}
+
+.active .contact-bg {
+  transition: opacity 0.5s 0s, background 0s 0s;
+  top: 0em !important;
+  right: 0em !important;
+  bottom: 0em !important;
+  left: 0em !important;
+  pointer-events: painted;
+}
+
+.color-tab p,
+.color-tab h6,
+.color-tab a {
+  position: relative;
+  opacity: 0;
+  -webkit-transform: translate(0px, 10px);
+  -ms-transform: translate(0px, 10px);
+  transform: translate(0px, 10px);
+}
+
+.color-tab a {
+  -webkit-transform: translate(0px, -10px);
+  -ms-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
+}
+
+.color-tab h2 {
+  transition: all 0.6s cubic-bezier(0.63, -2, 0.3, 2);
+  font-size: 3.75em;
+  letter-spacing: -0.03em;
+  line-height: 80%;
+  margin: 0.3em 0em 1em;
+  position: relative;
+}
+
+.color-tab h2:after {
+  content: '';
+  /* background: white; */
+  height: 2px;
+  width: 0%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -30px;
+  position: absolute;
+  transition: all 0.6s cubic-bezier(0.63, -2, 0.3, 2) 1s;
+}
+
+.active .color-tab h2:after {
+  width: 10%;
+}
+
+.active .color-tab h2 {
+  transition: all 0.6s cubic-bezier(0.63, -2, 0.3, 2) 0.5s;
+}
+
+.color-tab p {
+  transition: all 0.6s cubic-bezier(0.63, -2, 0.3, 2);
+  color: #fff;
+  font-size: 0.875em;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: initial;
+}
+
+.active .color-tab p {
+  transition: all 0.6s cubic-bezier(0.63, -2, 0.3, 2) 0.8s;
+}
+
+.color-tab a {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+  padding: 2em 5em;
+  background: rgba(0, 0, 0, 0.1);
+  margin-top: 1em;
+  position: relative;
+  transition: all 0.6s cubic-bezier(0.63, -2, 0.3, 2);
+}
+
+.active .color-tab a {
+  transition: all 0.6s cubic-bezier(0.63, -2, 0.3, 2) 1s, background 0.1s linear;
+}
+
+.color-tab a:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.color-tab a:after {
+  content: '';
+  border: 1px solid #fff;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 1;
+  transition: all 0.3s 4s cubic-bezier(0.63, -2, 0.3, 2);
+}
+
+.active .color-tab a:after {
+  top: 7px;
+  bottom: 7px;
+  left: 7px;
+  right: 7px;
+  transition: all 0.3s 0s cubic-bezier(0.63, -2, 0.3, 2);
+}
+
+.color-tab a:hover:after {
+  top: -7px;
+  left: -7px;
+  right: -7px;
+  bottom: -7px;
+  opacity: 0.5;
+}
+
+.color-tab h6 {
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  font-size: 0.875em;
+  margin: 0;
+}
+
+.active .color-tab h6 {
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  -moz-osx-font-smoothing: initial;
+}
+
+.active .color-tab h2,
+.active .color-tab p,
+.active .color-tab a,
+.active .color-tab h6 {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.section .bg-section.hover {
+  opacity: 1;
+}
+
+.section .bg-section {
+  transition: all 0.5s 0s linear;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  background-position: left;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.next-slide {
+  position: fixed;
+  z-index: 20;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  background: rgba(0, 0, 0, 0.1);
+  right: 0;
+  left: 0;
+  margin: auto;
+  bottom: 20px;
+  text-indent: -99999px;
+  transition: background 0.1s linear;
+}
+
+.next-slide:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.next-slide:before,
+.next-slide:after {
+  width: 2px;
+  height: 15px;
+  content: '';
+  background: white;
+  position: absolute;
+  top: 21px;
+}
+
+.next-slide:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: 21px;
+}
+
+.next-slide:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 22px;
+}
+
+.next-slide a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.go-down:after {
+  content: '';
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  transition: all 0.3s 0s cubic-bezier(0.63, -2, 0.3, 2);
+}
+
+.go-down:hover:after {
+  top: -7px;
+  left: -7px;
+  right: -7px;
+  bottom: -7px;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation: landscape) {
+  .contact-bg {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation: portrait) {
+  .color-tab {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    top: auto;
+  }
+
+  #project-1 .bg-section {
+    background-image: url(../img/enter-m.jpg);
+  }
+
+  #project-2 .bg-section {
+    background-image: url(../img/unidad-m.jpg);
+  }
+
+  #project-3 .bg-section {
+    background-image: url(../img/hipotecaria-m.jpg);
+  }
+
+  #project-4 .bg-section {
+    background-image: url(../img/somos-dane-m.jpg);
+  }
+
+  #project-5 .bg-section {
+    background-image: url(../img/fogafin-m.jpg);
+  }
+
+  #project-6 .bg-section {
+    background-image: url(../img/viajes-m.jpg);
+  }
+
+  #project-7 .bg-section {
+    background-image: url(../img/alqueria-m.jpg);
+  }
+
+  .section .bg-section {
+    background-position: center top;
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+  .color-tab {
+    width: 100%;
+  }
+
+  .color-tab:before {
+    display: none;
+  }
+
+  #project-1 .bg-section {
+    background-image: url(../img/enter-m.jpg);
+    background-size: auto 50%;
+  }
+
+  #project-2 .bg-section {
+    background-image: url(../img/unidad-m.jpg);
+    background-size: auto 50%;
+  }
+
+  #project-3 .bg-section {
+    background-image: url(../img/hipotecaria-m.jpg);
+    background-size: auto 50%;
+  }
+
+  #project-4 .bg-section {
+    background-image: url(../img/somos-dane-m.jpg);
+    background-size: auto 50%;
+  }
+
+  #project-5 .bg-section {
+    background-image: url(../img/fogafin-m.jpg);
+    background-size: auto 50%;
+  }
+
+  #project-6 .bg-section {
+    background-image: url(../img/viajes-m.jpg);
+    background-size: auto 50%;
+  }
+
+  #project-7 .bg-section {
+    background-image: url(../img/alqueria-m.jpg);
+    background-size: auto 50%;
+  }
+
+  /*#project-8 .bg-section{
+    background-image: url(../img/alqueria-l.jpg);
+  }*/
+
+  .section .bg-section {
+    opacity: 1;
+    background-attachment: initial;
+    background-size: 100%;
+    background-position: top;
+  }
+
+  body #fp-nav.left {
+    left: 7px;
+  }
+
+  .resume {
+    color: #89b92d;
+    font-size: 1.1em;
+  }
+
+  #fp-nav h6 {
+    display: none;
+  }
+
+  .contact-bg {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .color-tab a {
+    margin-top: 0;
+  }
+
+  .color-tab p {
+    display: none;
+  }
+
+  .color-tab h2 {
+    margin: 0.3em 0em 0.5em;
+  }
+
+  .color-tab {
+    height: 51%;
+    width: 100%;
+    top: 49%;
+  }
+
+  .active .color-tab h2:after {
+    width: 0;
+  }
+
+  .go-down:after {
+    display: none;
+  }
+
+  .next-slide {
+    bottom: 10px;
+    text-indent: 0;
+    height: 35px;
+    background: transparent;
+    width: auto;
+    display: none;
+  }
+
+  .next-slide:before,
+  .next-slide:after {
+    display: none;
+  }
+
+  .color-tab h2 {
+    font-size: 2.5em;
+  }
+
+  .next-slide a {
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 8px 15px 15px;
+    border-radius: 400px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: auto;
+    display: inline-block;
+  }
+
+  .next-slide:hover {
+    background: transparent;
+  }
+
+  #project-4 .color-tab {
+    background-color: #a40045;
+  }
+
+  #project-3 .color-tab {
+    background-color: #a72734;
+  }
+
+  #project-5 .color-tab {
+    background-color: #115f9a;
+  }
+
+  #project-7 .color-tab {
+    background-color: #ffa500;
+  }
+
+  .color-tab h2 {
+    opacity: 0;
+    -webkit-transform: translate(0px, -20px);
+    -ms-transform: translate(0px, -20px);
+    transform: translate(0px, -20px);
+  }
+}
+
+@media screen and (max-width: 750px) and (orientation: landscape) {
+  .color-tab h2 {
+    font-size: 2.5em;
+    margin: 0.3em 0em 0.7em;
+  }
+
+  .color-tab h2:after {
+    height: 1px;
+    bottom: -20px;
+  }
+
+  .color-tab p {
+    margin-bottom: 0px;
+    display: none;
+  }
+
+  .contact-bg {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .color-tab h6 {
+    margin-top: 0.5em;
+  }
+
+  .hide-small-landscape {
+    display: none;
+  }
+}

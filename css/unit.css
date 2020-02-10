@@ -1,0 +1,1161 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/projects/unit-victims/FuturaStd-Bookd41d.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/projects/unit-victims/FuturaStd-Book.woff') format('woff'),
+    url('../fonts/projects/unit-victims/FuturaStd-Book.ttf') format('truetype'),
+    url('../fonts/projects/unit-victims/FuturaStd-Book.svg#FuturaStd-Book')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/projects/unit-victims/FuturaStd-Boldd41d.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/projects/unit-victims/FuturaStd-Bold.otf') format('opentype'),
+    url('../fonts/projects/unit-victims/FuturaStd-Bold.woff') format('woff'),
+    url('../fonts/projects/unit-victims/FuturaStd-Bold.ttf') format('truetype'),
+    url('../fonts/projects/unit-victims/FuturaStd-Bold.svg#FuturaStd-Bold')
+      format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleo';
+  src: url('../fonts/projects/la-hipotecaria/Aleo-Regular-webfontd41d.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/projects/la-hipotecaria/Aleo-Regular-webfont.woff')
+      format('woff'),
+    url('../fonts/projects/la-hipotecaria/Aleo-Regular-webfont.ttf')
+      format('truetype'),
+    url('../fonts/projects/la-hipotecaria/Aleo-Regular-webfont.html')
+      format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body.unit-victims {
+  background-image: url(../img/projects/unit-victims/unit-bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+}
+
+body.enter-co {
+  background-image: url(../img/projects/enter-co/enter-bg-test.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+}
+
+body.la-hipotecaria {
+  background-image: url(../img/projects/la-hipotecaria/hipotecaria-bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+}
+
+body.viajes-falabella {
+  background-image: url(../img/projects/viajes-falabella/viajes-falabella-bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+}
+
+body.somos-dane {
+  background-image: url(../img/projects/somos-dane/somos-dane-bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+}
+
+body.fogafin {
+  background-image: url(../img/projects/fogafin/fogafin-bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+}
+
+body.alqueria {
+  background-image: url(../img/projects/alqueria/alqueria-bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+}
+
+.font-color.unit {
+  background-color: #b62323;
+  font-family: 'Futura', 'Avenir', 'Helvetica', sans-serif;
+}
+
+body.viajes-falabella .editorial {
+  padding: 6em 0;
+}
+
+body.viajes-falabella .responsive {
+  background: #1c1c1c;
+  padding: 6em 0;
+  color: #f1f1f1;
+}
+
+body.viajes-falabella .responsive .r-3 {
+  margin-top: 2.6em;
+}
+
+body.la-hipotecaria .font-color {
+  margin-top: -11.5em;
+  background: #a72734;
+}
+
+body.alqueria .font-color {
+  background: #ffa500;
+}
+
+body.somos-dane .font-color {
+  background: #a40045;
+}
+
+body.la-hipotecaria .font-color .font-1 {
+  font-family: 'Aleo', serif;
+  text-align: justify;
+}
+
+body.la-hipotecaria .font-color .font-2 {
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+}
+
+body.viajes-falabella .font-color .font-1 {
+  font-family: 'Merriweather', serif;
+}
+
+body.viajes-falabella .font-color .font-2 {
+  font-family: 'Muli', sans-serif;
+}
+
+body.somos-dane .font-color .font-1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body.somos-dane .font-color .font-2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body.fogafin .font-color .font-1 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body.fogafin .font-color .font-2 {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.font-color.enter {
+  background: #e34925;
+}
+
+body.fogafin .font-color {
+  background: #115f9a;
+}
+
+.font-color.unit .font-2 {
+  font-weight: bold;
+}
+
+.font-color.unit .abc {
+  letter-spacing: 0.2em;
+}
+
+.thanks.unit {
+  background: url(../img/projects/unit-victims/furley_bg.png);
+}
+
+.unit .color-t.c-1:after {
+  background-color: #9c2426;
+}
+
+.unit .color-t.c-2:after {
+  background-color: #93b9b7;
+}
+
+.unit .color-t.c-3:after {
+  background-color: #d4884f;
+}
+
+.unit .color-t.c-4:after {
+  background-color: #b8bd57;
+}
+
+.la-hipotecaria .color-t.c-1:after {
+  background-color: #a72734;
+}
+
+.la-hipotecaria .color-t.c-2:after {
+  background-color: #f58e58;
+}
+
+.la-hipotecaria .color-t.c-3:after {
+  background-color: #33a7c3;
+}
+
+.la-hipotecaria .color-t.c-4:after {
+  background-color: #6c747b;
+}
+
+body.viajes-falabella .color-t.c-1:after {
+  background-color: #89b92d;
+}
+
+body.viajes-falabella .color-t.c-2:after {
+  background-color: #555555;
+}
+
+body.viajes-falabella .color-t.c-3:after {
+  background-color: #e1e1e1;
+}
+
+body.viajes-falabella .color-t.c-4:after {
+  background-color: #fcfcfc;
+}
+
+.responsive-layout.unit {
+  color: white;
+  background-image: url(../img/projects/unit-victims/bg-responsive.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding-top: 10em;
+}
+
+.gray.unit {
+  background: url(../img/projects/unit-victims/furley_bg.png);
+  padding-top: 10em;
+  margin-top: -5em;
+  padding-bottom: 5em;
+}
+
+.browser-down.unit {
+  background: url(../img/projects/unit-victims/furley_bg.png);
+  position: relative;
+  padding: 6em 0;
+}
+
+.gallery {
+  background: url(../img/projects/unit-victims/furley_bg.png);
+}
+
+body.unit-victims .menu {
+  background: #b62323;
+}
+
+body.enter-co .menu {
+  background: #4b0c17;
+}
+
+body.la-hipotecaria .menu {
+  background: #a72734;
+}
+
+body.la-hipotecaria .menu {
+  background: #a72734;
+}
+
+body.somos-dane .menu {
+  background: #a40045;
+}
+
+body.viajes-falabella .menu {
+  background: #89b92d;
+}
+
+body.alqueria .menu {
+  background: #ffa500;
+}
+
+body.fogafin .menu {
+  background: #115f9a;
+}
+
+.intro-box.unit {
+  background-color: #b62323;
+}
+
+.intro-box.enter-co {
+  background-color: #e34925;
+}
+
+body.la-hipotecaria .intro-box {
+  background: #a72734;
+}
+
+body.somos-dane .intro-box {
+  background: #a40045;
+}
+
+body.viajes-falabella .intro-box {
+  background: #89b92d;
+}
+
+body.alqueria .intro-box {
+  background: #ffa500;
+}
+
+body.fogafin .intro-box {
+  background: #115f9a;
+}
+
+body.enter-co .font-name.font-1,
+body.enter-co .abc.font-1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+body.enter-co .font-name.font-2,
+body.enter-co .abc.font-2 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.color-t:after {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+.enter-co .color-t.c-1:after {
+  background-color: #e34925;
+}
+
+.enter-co .color-t.c-2:after {
+  background-color: #292929;
+}
+
+.enter-co .color-t.c-3:after {
+  background-color: #e2e2e2;
+}
+
+.enter-co .color-t.c-4:after {
+  background-color: #f1f1f1;
+}
+
+.font-color.enter {
+  margin-top: -5.5em;
+}
+
+body.viajes-falabella .font-color {
+  background: #89b92d;
+}
+
+body.enter-co .responsive-show {
+  margin-top: -11em;
+}
+
+body.enter-co .responsive-show {
+  text-align: right;
+}
+
+body.la-hipotecaria .responsive-show {
+  margin-top: -21em;
+}
+
+body.enter-co .imac {
+  position: relative;
+  z-index: 20;
+}
+
+body.enter-co .responsive-show .laptop {
+  position: absolute;
+  z-index: 15;
+  left: -15em;
+  bottom: 2em;
+}
+
+body.enter-co .responsive-show .tablet {
+  position: relative;
+  z-index: 20;
+  transition-delay: 0.5s;
+}
+
+.responsive-layout.enter-co {
+  color: #0a0a0a;
+  /* background-image: url(../img/projects/unit-victims/bg-responsive.png); */
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding-top: 10em;
+  background: #efefef;
+  margin-top: -6em;
+  position: relative;
+  z-index: 10;
+  padding-bottom: 2em;
+}
+
+.responsive-layout.enter-co img {
+  margin-top: 1em;
+}
+
+.responsive-layout.enter-co h6.subtitle:after {
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #0a0a0a;
+}
+
+body.viajes-falabella .font-color {
+  padding: 9em 0 5em;
+  color: white;
+  margin-top: -12em;
+}
+
+body.viajes-falabela .responsive-show {
+  margin-top: -14em;
+}
+
+body.enter-co .editorial img {
+  max-width: 300px;
+}
+
+body.la-hipotecaria .editorial {
+  padding-bottom: 3em;
+}
+
+body.la-hipotecaria .editorial img {
+  position: relative;
+  margin-bottom: 2em;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.la-hipotecaria .responsive-layout {
+  margin-top: 0;
+}
+
+body.la-hipotecaria .icon {
+  padding: 7em 0;
+  background: #f1f1f1;
+}
+
+body.la-hipotecaria .icon img {
+  margin-top: 1em;
+}
+
+body.la-hipotecaria .icon div.large-2:nth-child(2) img {
+  transition-delay: 0.3s;
+}
+
+body.la-hipotecaria .icon div.large-2:nth-child(3) img {
+  transition-delay: 0.6s;
+}
+
+body.la-hipotecaria .icon div.large-2:nth-child(4) img {
+  transition-delay: 0.9s;
+}
+
+body.la-hipotecaria .icon div.large-2:nth-child(5) img {
+  transition-delay: 1.2s;
+}
+
+body.la-hipotecaria .icon div.large-2:nth-child(6) img {
+  transition-delay: 1.5s;
+}
+
+body.la-hipotecaria .icon h6:after {
+  background: #1c1c1c;
+}
+
+body.viajes-falabella .editorial img {
+  position: relative;
+}
+
+.editorial.enter-co .imac {
+  max-width: 600px;
+  bottom: 0px;
+  left: 30px;
+}
+
+.editorial.enter-co img {
+  bottom: 6em;
+}
+
+.enter-search-wrapper {
+  font-family: 'Oswald', sans-serif;
+}
+
+.enter-search-wrapper h5 {
+  text-transform: uppercase;
+  color: #e34925;
+}
+
+.enter-search-wrapper h2 {
+  text-transform: uppercase;
+  color: #1c1c1c;
+  font-size: 4em;
+}
+
+.enter-search-wrapper h2 small {
+  color: #aaa;
+  position: relative;
+  margin-left: 0.3em;
+  padding-left: 0.3em;
+  font-size: 0.5em;
+}
+
+.enter-search-wrapper h2 small:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #aaa;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.enter-search-wrapper p {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-style: italic;
+  color: #888;
+}
+
+.search.enter-co {
+  padding-top: 10em;
+  margin-top: -5em;
+  padding-bottom: 5em;
+  background: white;
+}
+
+.search.enter-co .window {
+  padding: 2em;
+  border: 1px solid #cecece;
+  border-radius: 0px 0px 4px 4px;
+  border-top: none;
+  background: white;
+}
+
+.search.enter-co .browser-header {
+  border: 1px solid #cecece;
+  background: white;
+}
+
+.search.enter-co .browser-header:before,
+.search.enter-co .browser-header:after {
+  opacity: 0.4;
+}
+
+.search.enter-co .r-3 {
+  transition-delay: 0.4s;
+}
+
+.search.enter-co .r-5 {
+  transition-delay: 0.8s;
+}
+
+.search.enter-co .r-7 {
+  transition-delay: 1.2s;
+}
+
+.search.enter-co .r-6 {
+  transition-delay: 0.4s;
+}
+
+.search.enter-co .r-4 {
+  transition-delay: 0.8s;
+}
+
+.search.enter-co .r-2 {
+  transition-delay: 1.2s;
+}
+
+.thanks.enter-co {
+  background: white;
+}
+
+@media screen and (max-width: 26em) and (orientation: portrait) {
+  body.enter-co .responsive-show .tablet {
+    max-width: 300px;
+    transition-delay: 0s;
+    left: 20px;
+  }
+
+  .responsive-layout.enter-co img {
+    max-width: 300px;
+  }
+
+  body.enter-co .responsive-show {
+    text-align: center;
+    margin-top: -8em;
+  }
+
+  .font-color.enter {
+    margin-top: -4em;
+  }
+
+  .font-color.enter {
+    padding-top: 7em;
+  }
+
+  .editorial.enter-co .imac {
+    max-width: 300px;
+    left: 0;
+  }
+
+  .editorial.enter-co img {
+    bottom: 0;
+  }
+
+  .responsive-layout.enter-co {
+    margin-top: -1px;
+    padding-top: 5em;
+  }
+
+  .enter-search-wrapper h2 {
+    font-size: 1.8em;
+  }
+
+  .search.enter-co .r-2,
+  .search.enter-co .r-3,
+  .search.enter-co .r-4,
+  .search.enter-co .r-5,
+  .search.enter-co .r-6,
+  .search.enter-co .r-7 {
+    transition-delay: 0s;
+  }
+
+  .search.enter-co .browser-header {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .search.enter-co .browser-header:after {
+    display: none;
+  }
+
+  .search.enter-co .window {
+    max-width: 90%;
+    float: none;
+    margin: auto;
+    padding: 1em;
+  }
+
+  body.la-hipotecaria .responsive-show {
+    margin-top: -6em;
+  }
+
+  body.la-hipotecaria .font-color {
+    margin-top: -4.5em;
+  }
+
+  body.la-hipotecaria .icon div.large-2:nth-child(2) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(3) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(4) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(5) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(6) img {
+    transition-delay: 0s;
+  }
+}
+
+@media screen and (max-width: 46.25em) and (orientation: landscape) {
+  body.enter-co .responsive-show .tablet {
+    max-width: 300px;
+    right: 35px;
+  }
+
+  body.enter-co .responsive-show .laptop {
+    max-width: 420px;
+    left: 20px;
+  }
+
+  body.enter-co .responsive-show {
+    margin-top: -7em;
+  }
+
+  .editorial.enter-co .imac {
+    max-width: 450px;
+  }
+
+  body.enter-co .editorial img {
+    max-width: 230px;
+  }
+
+  .enter-co .editorial .e-2 {
+    right: 20px;
+  }
+
+  .responsive-layout.enter-co .large-4.columns {
+    width: 50%;
+  }
+
+  .enter-search-wrapper h2 {
+    font-size: 1.8em;
+  }
+
+  .search.enter-co .r-2,
+  .search.enter-co .r-3,
+  .search.enter-co .r-4,
+  .search.enter-co .r-5,
+  .search.enter-co .r-6,
+  .search.enter-co .r-7 {
+    transition-delay: 0s;
+  }
+
+  .search.enter-co .browser-header {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .search.enter-co .browser-header:after {
+    display: none;
+  }
+
+  .search.enter-co .window {
+    max-width: 90%;
+    float: none;
+    margin: auto;
+    padding: 1em;
+  }
+
+  .search.enter-co .large-3 {
+    width: 50%;
+  }
+
+  .responsive-layout.enter-co img {
+    max-width: 300px;
+  }
+
+  body.la-hipotecaria .responsive-show {
+    margin-top: -12em;
+  }
+
+  body.la-hipotecaria .icon .large-2 {
+    width: 33.3%;
+  }
+
+  body.la-hipotecaria .icon div.large-2:nth-child(2) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(3) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(4) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(5) img,
+  body.la-hipotecaria .icon div.large-2:nth-child(6) img {
+    transition-delay: 0s;
+  }
+}
+
+@media screen and (min-width: 64em) and (max-width: 81.25em) {
+  body.enter-co .responsive-show .laptop {
+    bottom: 0;
+    left: -11em;
+    max-width: 850px;
+  }
+
+  body.enter-co .responsive-show .tablet {
+    max-width: 500px;
+  }
+}
+
+.first-approach {
+  padding: 3em 0 3em;
+  color: white;
+}
+
+.first-approach h6 {
+  color: white;
+}
+
+.first-approach h4 {
+  margin-top: 2em;
+}
+
+.first-approach .wireframes {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.first-approach .wireframes img {
+  margin-right: 5px;
+}
+
+.next-project.unit {
+  background-image: url(../img/projects/enter-co/go-next.jpg);
+  background-position: center;
+}
+
+.next-project.hipotecaria {
+  background-image: url(../img/projects/unit-victims/go-next.jpg);
+  background-position: center;
+}
+
+.next-project.fogafin {
+  background-image: url(../img/projects/somos-dane/go-next.png);
+  background-position: center;
+}
+
+.next-project.somos-dane {
+  background-image: url(../img/projects/la-hipotecaria/go-next.jpg);
+  background-position: center;
+}
+
+.next-project.viajes-falabella {
+  background-image: url(../img/projects/fogafin/go-next.jpg);
+  background-position: center;
+}
+
+.next-project.enter-co {
+  background-image: url(../img/projects/viajes-falabella/go-next.jpg);
+  background-position: center;
+}
+
+.next-project.unit:after {
+  background: #b62323;
+}
+
+.next-project.hipotecaria:after {
+  background: #a72734;
+}
+
+.next-project.unit:after {
+  background: #b62323;
+}
+
+.next-project.dane:after {
+  background: #a40045;
+}
+
+.next-project.fogafin:after {
+  background: #115f9a;
+}
+
+.next-project.viajes-falabella:after {
+  background: #89b92d;
+}
+
+body.somos-dane .color-t.c-1:after {
+  background-color: #b6004b;
+}
+
+body.somos-dane .color-t.c-2:after {
+  background-color: #2babe3;
+}
+
+body.somos-dane .color-t.c-3:after {
+  background-color: #f19b00;
+}
+
+body.somos-dane .color-t.c-4:after {
+  background-color: #98bd1e;
+}
+
+body.fogafin .color-t.c-1:after {
+  background-color: #1172b3;
+}
+
+body.fogafin .color-t.c-2:after {
+  background-color: #71b21d;
+}
+
+body.fogafin .color-t.c-3:after {
+  background-color: #d6d6d6;
+}
+
+body.fogafin .color-t.c-4:after {
+  background-color: #585858;
+}
+
+.dl-1 {
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.dl-2 {
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.dl-3 {
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.dl-4 {
+  -webkit-transition-delay: 0.6s;
+  -moz-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.dl-5 {
+  -webkit-transition-delay: 0.8s;
+  -moz-transition-delay: 0.8s;
+  -o-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+
+body.somos-dane .responsive-show {
+  text-align: center;
+  margin-top: -28em;
+}
+
+body.fogafin .responsive-show {
+  text-align: center;
+  margin-top: -28em;
+}
+
+.ui-elements img.full-width {
+  max-width: 100%;
+}
+
+body.somos-dane .thanks {
+  background: white;
+  position: relative;
+  padding-top: 20em;
+}
+
+body.somos-dane .character {
+  background: #f8f8f8;
+  padding: 8em 0;
+  position: relative;
+  box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.05) inset;
+}
+
+body.somos-dane .character img {
+  position: relative;
+  z-index: 10;
+}
+
+body.somos-dane .character p.dl-4 {
+  margin-top: 12em;
+}
+
+body.somos-dane .character:before {
+  /* height: 250px;*/
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  content: '';
+  position: absolute;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8f8+0,efefef+100 */
+  background: rgb(248, 248, 248); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(248, 248, 248, 1) 0%,
+    rgba(239, 239, 239, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(248, 248, 248, 1) 0%,
+    rgba(239, 239, 239, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(248, 248, 248, 1) 0%,
+    rgba(239, 239, 239, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+}
+
+.thanks h4 {
+  color: blue;
+  fill: currentColor;
+}
+
+body.fogafin .ui-elements {
+  background: white;
+  color: #555;
+}
+
+body.fogafin .ui-elements h6:after {
+  background: #555;
+}
+
+body.fogafin .character {
+  background: url(../img/projects/fogafin/responsive-bg.png) no-repeat;
+  color: white;
+  height: 300px;
+  background-position: center bottom;
+}
+
+body.fogafin .character h6 {
+  margin-top: 10em;
+}
+
+body.fogafin .character h6.subtitle:after {
+  right: auto;
+}
+
+body.fogafin .character img {
+  margin: 10em auto -7em;
+}
+
+body.fogafin .thanks {
+  padding-top: 20em;
+}
+
+.contact {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.photo-wrapper {
+  position: fixed;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  background-image: url(../img/andy.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  z-index: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about-text {
+  color: white;
+  background-color: #252525;
+  background-image: url(../img/pat.png);
+  background-blend-mode: multiply;
+  padding: 5em 3.2em;
+}
+
+.no-backgroundblendmode .about-text {
+  background-image: none;
+  background-blend-mode: none;
+}
+
+.about-text h1 {
+  font-size: 5em;
+  letter-spacing: -0.07em;
+  line-height: 100%;
+  margin-top: 0.8em;
+  color: #38ca13;
+}
+
+.about-text h2 {
+  font-size: 2em;
+  line-height: 120%;
+  margin-bottom: 0.5em;
+}
+
+.about-text h5 a {
+  color: #38ca13;
+  text-decoration: underline;
+}
+
+ul.social {
+  margin-left: 0px;
+}
+
+ul.social li {
+  list-style: none;
+}
+
+ul.social li img {
+  width: 15px;
+  margin-top: -8px;
+  margin-right: 5px;
+}
+
+ul.social li a {
+  color: white;
+}
+
+ul.social li a:hover {
+  text-decoration: underline;
+}
+
+body.about .logo h1 {
+  color: #1c1c1c;
+  text-shadow: none;
+}
+
+body.about .menu {
+  background: #38ca13;
+}
+
+body.about .logo h1 a {
+  color: #1c1c1c;
+  text-shadow: none;
+}
+
+body.about .contact:hover {
+  color: #38ca13;
+}
+
+.photo-wrapper:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 14px 0 14px;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  right: -14px;
+  border-color: white transparent transparent transparent;
+}
+
+body.la-hipotecaria .wireframes h4 {
+  margin-top: 5em;
+}
+
+body.enter-co .wireframes img {
+  width: 30%;
+}
+
+body.unit-victims .responsive-show {
+  margin-top: -2em;
+}
+
+body.la-hipotecaria .first-approach {
+  padding-bottom: 0px;
+}
+
+body.viajes-falabella .responsive h6:after {
+  left: auto;
+}
+
+body.viajes-falabella .responsive img {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 640px) {
+  .photo-wrapper {
+    position: relative;
+    height: 400px;
+  }
+
+  .about-text h1 {
+    margin-top: auto;
+  }
+
+  .about-text {
+    background-image: none;
+  }
+
+  .photo-wrapper:after {
+    right: 0px;
+  }
+
+  body.la-hipotecaria .wireframes h4 {
+    margin-top: 1em;
+  }
+
+  body.la-hipotecaria .first-look {
+    margin-top: 0px;
+  }
+
+  body.viajes-falabella .responsive h6:after {
+    left: 0px;
+  }
+
+  body.viajes-falabella .responsive-show {
+    margin-top: -3em;
+  }
+
+  body.somos-dane .responsive-show {
+    margin-top: -7em;
+  }
+}
