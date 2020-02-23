@@ -436,14 +436,14 @@
   }
 
   #project-1 .bg-section {
-    background-image: url(../img/enter-m.jpg);
+    background-image: url(../img/fchess.jpg);
   }
 
   #project-2 .bg-section {
-    background-image: url(../img/unidad-m.jpg);
+    background-image: url(../img/pencils.jpg);
   }
 
-  #project-3 .bg-section {
+  /* #project-3 .bg-section {
     background-image: url(../img/hipotecaria-m.jpg);
   }
 
@@ -461,7 +461,7 @@
 
   #project-7 .bg-section {
     background-image: url(../img/alqueria-m.jpg);
-  }
+  } */
 
   .section .bg-section {
     background-position: center top;
@@ -479,32 +479,32 @@
   }
 
   #project-1 .bg-section {
-    background-image: url(../img/enter-m.jpg);
+    background-image: url(../img/fchess.jpg);
     background-size: auto 50%;
   }
 
   #project-2 .bg-section {
-    background-image: url(../img/unidad-m.jpg);
+    background-image: url(../img/pencils.jpg);
     background-size: auto 50%;
   }
 
   #project-3 .bg-section {
-    background-image: url(../img/hipotecaria-m.jpg);
+    background-image: url(../img/438099.jpg);
     background-size: auto 50%;
   }
 
   #project-4 .bg-section {
-    background-image: url(../img/somos-dane-m.jpg);
+    background-image: url(../img/118279.jpg);
     background-size: auto 50%;
   }
 
   #project-5 .bg-section {
-    background-image: url(../img/fogafin-m.jpg);
+    background-image: url(../img/1163469.jpg);
     background-size: auto 50%;
   }
 
   #project-6 .bg-section {
-    background-image: url(../img/viajes-m.jpg);
+    background-image: url(../img/www.jpg);
     background-size: auto 50%;
   }
 
@@ -516,58 +516,46 @@
   /*#project-8 .bg-section{
     background-image: url(../img/alqueria-l.jpg);
   }*/
-
   .section .bg-section {
     opacity: 1;
     background-attachment: initial;
     background-size: 100%;
     background-position: top;
   }
-
   body #fp-nav.left {
     left: 7px;
   }
-
   .resume {
     color: #89b92d;
     font-size: 1.1em;
   }
-
   #fp-nav h6 {
     display: none;
   }
-
   .contact-bg {
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
-
   .color-tab a {
     margin-top: 0;
   }
-
   .color-tab p {
     display: none;
   }
-
   .color-tab h2 {
     margin: 0.3em 0em 0.5em;
   }
-
   .color-tab {
     height: 51%;
     width: 100%;
     top: 49%;
   }
-
   .active .color-tab h2:after {
     width: 0;
   }
-
   .go-down:after {
     display: none;
   }
-
   .next-slide {
     bottom: 10px;
     text-indent: 0;
@@ -576,16 +564,13 @@
     width: auto;
     display: none;
   }
-
   .next-slide:before,
   .next-slide:after {
     display: none;
   }
-
   .color-tab h2 {
     font-size: 2.5em;
   }
-
   .next-slide a {
     color: #333;
     background: rgba(255, 255, 255, 0.8);
@@ -596,27 +581,21 @@
     width: auto;
     display: inline-block;
   }
-
   .next-slide:hover {
     background: transparent;
   }
-
   #project-4 .color-tab {
     background-color: #a40045;
   }
-
   #project-3 .color-tab {
     background-color: #a72734;
   }
-
   #project-5 .color-tab {
     background-color: #115f9a;
   }
-
   #project-7 .color-tab {
     background-color: #ffa500;
   }
-
   .color-tab h2 {
     opacity: 0;
     -webkit-transform: translate(0px, -20px);
@@ -624,18 +603,15 @@
     transform: translate(0px, -20px);
   }
 }
-
 @media screen and (max-width: 750px) and (orientation: landscape) {
   .color-tab h2 {
     font-size: 2.5em;
     margin: 0.3em 0em 0.7em;
   }
-
   .color-tab h2:after {
     height: 1px;
     bottom: -20px;
   }
-
   .color-tab p {
     margin-bottom: 0px;
     display: none;
@@ -649,7 +625,6 @@
   .color-tab h6 {
     margin-top: 0.5em;
   }
-
   .hide-small-landscape {
     display: none;
   }
