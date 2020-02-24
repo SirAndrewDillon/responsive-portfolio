@@ -51,6 +51,10 @@
   border-color: #ffa500 transparent transparent transparent;
 }*/
 
+.mompic {
+  margin-top: -19em;
+}
+
 .active .color-tab:before {
   left: -14px;
   opacity: 1;
@@ -86,7 +90,7 @@
 }
 
 #project-6 .bg-section {
-  background-image: url(../img/CSS.png);
+  background-image: url(../img/codemain.png);
 }
 
 #project-7 .bg-section {
@@ -425,6 +429,9 @@
     padding-left: 4em;
     padding-right: 4em;
   }
+  .mompic {
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation: portrait) {
@@ -504,7 +511,7 @@
   }
 
   #project-6 .bg-section {
-    background-image: url(../img/824583.jpg);
+    background-image: url(../img/coder.jpg);
     background-size: auto 50%;
   }
 
