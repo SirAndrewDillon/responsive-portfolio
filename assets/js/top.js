@@ -132,7 +132,6 @@ $(function() {
     });
   };
 
-  // 画像のプリロード
   var preloadImage = function(path) {
     var img = new Image();
     img.src = IMAGE_DIR + path;
@@ -145,12 +144,10 @@ $(function() {
     });
   };
 
-  // 2桁に合わせる
   var z2 = function(num) {
     return ('0' + num).slice(-2);
   };
 
-  // イベントの処理 ⇛ move を呼び出す
   var tryMove = function(direction /* up | down */) {
     if (isAnimating || (direction !== 'up' && direction !== 'down')) return;
     isAnimating = true;
@@ -180,39 +177,32 @@ $(function() {
     }, ANIMATION_DELAY);
   };
 
-  // ページの移動
   var move = function(direction) {
-    // アニメーション開始
     $cursel.addClass('stop ' + direction);
     $cursel.offset();
     $cursel.removeClass('stop');
     $cursel.addClass('start');
     $centerImg.removeClass('load');
 
-    // テキストの変更処理
     updateNum();
     updateTitle();
 
-    // 画像の切り替え
     setTimeout(function() {
       $beforeImg.attr('src', IMAGE_DIR + IMAGES[currentIndex][0]);
       $afterImg.attr('src', IMAGE_DIR + IMAGES[currentIndex][1]);
     }, IMAGE_CHANGE_DELAY);
 
-    // アニメーション終了
     setTimeout(function() {
       $cursel.removeClass('start ' + direction);
       $centerImg.addClass('load');
     }, LOADING_DELAY);
   };
 
-  // カウンタの更新
   var updateNum = function() {
     var num = z2(currentIndex + 1);
     $countNum.text(num);
   };
 
-  // タイトルとリンクの更新
   var updateTitle = function() {
     var prevIndex = currentIndex - 1;
     var nextIndex = currentIndex + 1;
@@ -230,20 +220,10 @@ $(function() {
     $curselUnderH2.html(TITLES[nextIndex][0]);
   };
 
-  // 初期化処理
   preloadImages();
   updateNum();
   updateTitle();
   $maxNum.text(z2(itemCount));
 
-  // x秒後にスクロールイベント設定
   setTimeout(setScrollEvents, 6000);
 });
-
-// let string = "Hello I'm Andrew Dillon and I Love Developing Websites";
-// let str = string.split('');
-// let el = document.getElementById('cr');
-// (function animate() {
-//   str.length > 0 ? (el.innerHTML += str.shift()) : clearTimeout(running);
-//   let running = setTimeout(animate, 200);
-// })();
