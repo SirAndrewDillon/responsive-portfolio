@@ -96,7 +96,7 @@ $(function() {
     ['CALORIE<br>APP', 'detail/calorie.html'],
     ['COLOR GRADIENT <br>APP', 'detail/gradient.html'],
     ['CLASSIC<br>FROGGER', 'detail/frogger.html'],
-    ['A JAVASCRIPT<br> PIANO', 'detail/piano.html'],
+    ['VIRTUAL<br> PIANO', 'detail/piano.html'],
     ['COMING<br>SOON', 'detail/soon.html']
   ];
   var IMAGES = [
