@@ -4,93 +4,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style_pc.css">
-  <title>Andy's Site Is Under Construction</title>
+  <title>Andrew Dillon | Web Developer</title>
+
+  <!-- Web Fonts 
+	================================================== -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+    rel="stylesheet">
+
+  <!-- CSS
+================================================== -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/animsition.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicons
+================================================== -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png"> -->
+
 </head>
 
 <body>
 
-  <main>
-    <section class="advice">
-      <h1 class="advice__title">Site under construction or maintenance </h1>
-      <p class="advice__description"><span>
-        </span><span>Building...</span>
-        Working Day And Night
-      </p>
-    </section>
-    <section class="city-stuff">
-      <ul class="skyscrappers__list">
-        <li class="skyscrapper__item skyscrapper-1"></li>
-        <li class="skyscrapper__item skyscrapper-2"></li>
-        <li class="skyscrapper__item skyscrapper-3"></li>
-        <li class="skyscrapper__item skyscrapper-4"></li>
-        <li class="skyscrapper__item skyscrapper-5"></li>
-      </ul>
-      <ul class="tree__container">
-        <li class="tree__list">
-          <ul class="tree__item tree-1">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
+  <body class="over-hide">
+
+    <!-- Page preloader wrap
+    ================================================== -->
+
+    <div class="animsition">
+
+      <!-- Nav and Logo
+      ================================================== -->
+
+      <header class="cd-header">
+        <div class="header-wrapper">
+          <div class="logo-wrap">
+            <a href="index.html" class="cursor-link animsition-link"><img src="img/a-letter-logo-png-6.png"
+                alt="Letter A Logo"></a>
+          </div>
+          <div class="nav-but-wrap">
+            <div class="menu-icon cursor-link">
+              <span class="menu-icon__line menu-icon__line-left"></span>
+              <span class="menu-icon__line"></span>
+              <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav">
+        <div class="nav__content">
+          <ul class="nav__list">
+            <li class="nav__list-item active-nav"><a data-toggle="collapse" href="#collapseSub" class="cursor-link"
+                role="button" aria-expanded="false" aria-controls="collapseSub">PROJECTS</a>
+              <ul class="sub-links collapse" id="collapseSub">
+                <!-- <li class="active-nav"><a href="index-2.html" class="cursor-link animsition-link">PROJECTS</a></li> -->
+                <li><a href="project.html" class="cursor-link animsition-link">Gradient App</a></li>
+                <li><a href="project.html" class="cursor-link animsition-link">Frogger</a></li>
+                <li><a href="project.html" class="cursor-link animsition-link">Chess</a></li>
+                <li><a href="project.html" class="cursor-link animsition-link">Calorie App</a></li>
+                <li><a href="project.html" class="cursor-link animsition-link">Virtual Piano</a></li>
+                <li><a href="project.html" class="cursor-link animsition-link">Some Cool Code</a></li>
+              </ul>
+            </li>
+            <li class="nav__list-item"><a href="studio.html" class="cursor-link animsition-link">ABOUT</a></li>
+            <li class="nav__list-item"><a href="contact.html" class="cursor-link animsition-link">CONTACT</a></li>
           </ul>
-          <ul class="tree__item tree-2">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
+        </div>
+      </div>
+
+      <!-- Primary Page Layout
+      ================================================== -->
+
+      <div class="section full-height over-hide background-dark-2">
+        <div class="case-study-name-title">PROJECTS</div>
+        <ul class="case-study-wrapper">
+          <li class="case-study-name">
+            <span>Gradient App</span> <a href="project.html" class="cursor-link animsition-link">explore</a>
+          </li>
+          <li class="case-study-name">
+            <span>Frogger</span> <a href="project.html" class="cursor-link animsition-link">explore</a>
+          </li>
+          <li class="case-study-name">
+            <span>Chess</span> <a href="project.html" class="cursor-link animsition-link">explore</a>
+          </li>
+          <li class="case-study-name">
+            <span>Calorie App</span> <a href="project.html" class="cursor-link animsition-link">explore</a>
+          </li>
+          <li class="case-study-name">
+            <span>Virtual Piano</span> <a href="project.html" class="cursor-link animsition-link">explore</a>
+          </li>
+          <li class="case-study-name">
+            <span>Some Cool Code</span> <a href="project.html" class="cursor-link animsition-link">explore</a>
+          </li>
+        </ul>
+        <ul class="case-study-images">
+          <li>
+            <div class="img-hero-background" style="background-image: url('img/3.jpg');"></div>
+            <div class="dark-over-hero"></div>
+            <div class="hero-number-back">01</div>
+            <div class="hero-number">01</div>
+            <div class="hero-number-fixed">06</div>
+            <div class="case-study-title">graphic Design, typography, interaction</div>
+          </li>
+          <li>
+            <div class="img-hero-background" style="background-image: url('img/4.jpg');"></div>
+            <div class="hero-number-back">02</div>
+            <div class="hero-number">02</div>
+            <div class="case-study-title">advertising, art direction</div>
+          </li>
+          <li>
+            <div class="img-hero-background" style="background-image: url('img/1.jpg');"></div>
+            <div class="hero-number-back">03</div>
+            <div class="hero-number">03</div>
+            <div class="case-study-title">art direction, photography, retouching</div>
+          </li>
+          <li>
+            <div class="img-hero-background" style="background-image: url('img/5.jpg');"></div>
+            <div class="hero-number-back">04</div>
+            <div class="hero-number">04</div>
+            <div class="case-study-title">photography, advertising, fine arts</div>
+          </li>
+          <li>
+            <div class="img-hero-background" style="background-image: url('img/2.jpg');"></div>
+            <div class="hero-number-back">05</div>
+            <div class="hero-number">05</div>
+            <div class="case-study-title">architecture, exhibition design</div>
+          </li>
+          <li>
+            <div class="img-hero-background" style="background-image: url('img/6.jpg');"></div>
+            <div class="hero-number-back">06</div>
+            <div class="hero-number">06</div>
+            <div class="case-study-title">interior design</div>
+          </li>
+        </ul>
+        <div class="social-wrap">
+          STALK ME
+          <ul>
+            <li><a href="#" class="cursor-link">LinkedIn</a></li>
+            <li><a href="#" class="cursor-link">Twitter</a></li>
+            <li><a href="#" class="cursor-link">GitHub</a></li>
           </ul>
-          <ul class="tree__item tree-3">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
-          </ul>
-          <ul class="tree__item tree-4">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
-          </ul>
-          <ul class="tree__item tree-5">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
-          </ul>
-          <ul class="tree__item tree-6">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
-          </ul>
-          <ul class="tree__item tree-7">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
-          </ul>
-          <ul class="tree__item tree-8">
-            <li class="tree__trunk"></li>
-            <li class="tree__leaves"></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="crane__list crane-1">
-        <li class="crane__item crane-cable crane-cable-1"></li>
-        <li class="crane__item crane-cable crane-cable-2"></li>
-        <li class="crane__item crane-cable crane-cable-3"></li>
-        <li class="crane__item crane-stand"></li>
-        <li class="crane__item crane-weight"></li>
-        <li class="crane__item crane-cabin"></li>
-        <li class="crane__item crane-arm"></li>
-      </ul>
-      <ul class="crane__list crane-2">
-        <li class="crane__item crane-cable crane-cable-1"></li>
-        <li class="crane__item crane-cable crane-cable-2"></li>
-        <li class="crane__item crane-cable crane-cable-3"></li>
-        <li class="crane__item crane-stand"></li>
-        <li class="crane__item crane-weight"></li>
-        <li class="crane__item crane-cabin"></li>
-        <li class="crane__item crane-arm"></li>
-      </ul>
-      <ul class="crane__list crane-3">
-        <li class="crane__item crane-cable crane-cable-1"></li>
-        <li class="crane__item crane-cable crane-cable-2"></li>
-        <li class="crane__item crane-cable crane-cable-3"></li>
-        <li class="crane__item crane-stand"></li>
-        <li class="crane__item crane-weight"></li>
-        <li class="crane__item crane-cabin"></li>
-        <li class="crane__item crane-arm"></li>
-      </ul>
-    </section>
-  </main>
+        </div>
+      </div>
+
+      <!-- Page cursor
+    ================================================== -->
+
+      <div class="cursor cursor-shadow"></div>
+      <div class="cursor cursor-dot"></div>
+
+
+    </div>
+
+    <!-- JAVASCRIPT
+      ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- End Document
+  ================================================== -->
+  </body>
+
+</html>
 </body>
 
 </html>
