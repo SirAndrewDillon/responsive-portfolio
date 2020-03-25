@@ -434,6 +434,7 @@ a:hover {
 .nav-but-wrap {
   position: relative;
   display: inline-block;
+  float: right;
   padding-left: 15px;
   padding-top: 15px;
   margin-top: 26px;
@@ -603,7 +604,8 @@ body.nav-active .cd-header.is-fixed {
   -o-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
 }
-
+body.nav-active .cd-header.is-visible {
+}
 body.nav-active .menu-icon__line {
   background-color: #fff;
   -webkit-transform: translate(0px, 0px) rotate(-45deg);
@@ -824,6 +826,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 .case-study-wrapper .case-study-name a {
   color: #fff;
+  float: right;
   display: inline-block;
   padding: 0;
   margin: 0;
@@ -1213,7 +1216,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   margin-top: 50px;
   margin-bottom: 200px;
   top: -145px;
-  left: -300px;
+  left: -260px;
 }
 
 .ajax-form input {
@@ -1440,6 +1443,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   padding-top: 10px;
   display: inline-block;
   color: #c4c3ca;
+  float: right;
   padding-top: 0;
 }
 .social-wrap.on-footer:before {
@@ -1523,13 +1527,16 @@ body.nav-active .nav__list-item:nth-child(10) {
   background-color: #212121;
   font-style: normal;
 }
-
+.tipper.right .tipper-content {
+}
 .tipper.right .tipper-caret {
   background-position: left center;
   left: -5px;
   top: 0;
 }
 
+.tipper.left .tipper-content {
+}
 .tipper.left .tipper-caret {
   background-position: right center;
   right: -5px;
@@ -1545,6 +1552,8 @@ body.nav-active .nav__list-item:nth-child(10) {
   margin-left: -6px;
 }
 
+.tipper.top .tipper-content {
+}
 .tipper.top .tipper-caret {
   background-position: center bottom;
   bottom: -5px;
@@ -1552,6 +1561,8 @@ body.nav-active .nav__list-item:nth-child(10) {
   text-align: center;
 }
 
+.tipper.bottom .tipper-content {
+}
 .tipper.bottom .tipper-caret {
   background-position: center top;
   top: -5px;
