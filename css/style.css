@@ -1210,13 +1210,9 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 /* Project Buttons */
 .project-buttons {
-  display: flex;
   position: absolute;
-  flex-direction: row;
-  margin-top: 50px;
-  margin-bottom: 200px;
-  top: -145px;
-  left: -260px;
+  top: -110px;
+  left: -270px;
 }
 
 .ajax-form input {
