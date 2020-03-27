@@ -1209,10 +1209,26 @@ body.nav-active .nav__list-item:nth-child(10) {
 ================================================== */
 
 /* Project Buttons */
-.project-buttons {
-  position: absolute;
-  top: -110px;
-  left: -270px;
+.buttonOne {
+  background: #957dad;
+  border: 5px solid #fff;
+  color: #cdcdcd;
+  font-family: 'futura';
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  max-width: 25%;
+  margin: 5% auto;
+  border-radius: 50px;
+}
+
+.buttonOne:hover {
+  color: #fff;
+  background: #71a1af;
 }
 
 .ajax-form input {
