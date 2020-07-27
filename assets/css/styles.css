@@ -515,7 +515,7 @@ ul li {
 @media only screen and (max-width: 30em) {
   .label {
     display: block;
-    margin: -6px 0 12px;
+    margin: 00 12px;
   }
 }
 b,
