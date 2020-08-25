@@ -218,7 +218,7 @@ body {
   display: block;
 }
 .area-image-hover .image-portrait img {
-  max-width: 300px;
+  max-width: 500px;
 }
 .area-image-hover .image-landscape img {
   max-width: 360px;
