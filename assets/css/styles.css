@@ -107,13 +107,13 @@ th {
 .cursor-dot {
   width: 20px;
   height: 20px;
-  background-color: #ffa500;
+  background-color: #ff0000;
 }
 
 .cursor-dot-outline {
   width: 40px;
   height: 40px;
-  background-color: rgba(204,85,0, 0.7);
+  background-color: rgba(209, 102, 102, 0.7);
 }
 
 
@@ -159,9 +159,16 @@ body {
 }
 @media only screen and (max-width: 30em) {
   .content.content-100 {
-    min-height: 90vh;
+    min-height: 67vh;
   }
 }
+
+@media only screen and (max-width: 36em) {
+  .content.content-100 {
+    min-height: 58vh;
+  }
+}
+
 .content .content-right {
   width: 83.3334%;
   text-align: right;
@@ -747,6 +754,7 @@ em {
     margin-bottom: 6em;
   }
 }
+
 .footer {
   position: relative;
   text-align: right;
