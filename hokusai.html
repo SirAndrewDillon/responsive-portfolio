@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js" lang="">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63204458-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-63204458-2');
+</script>
+<head>
+  <meta charset="utf-8">
+  <title>Andrew Dillon - Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <audio
+  src="./audio//how-about-a-nice-game-of-chess.mp3"
+  id="my-audio"
+  type="audio/mp3"
+  preload="auto"
+>
+  Your browser does not support the HTML5 Audio element.
+</audio>
+<script type="text/javascript">
+  setTimeout(function () {
+    document.getElementById("my-audio").play();
+    console.log("audio playing")
+  }, 3000);
+</script>
+
+  <div class="m-scene" id="main">
+    <div class="spinner"></div>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light scene_element scene_element--fadein" id="navbar" style="top: 0px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"></a>
+            <ul class="navbar-nav-desktop mr-auto scene_element scene_element--fadein">
+              <li class="nav-item">
+                <a class="nav-link underline" id="menu-projects" href="index.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link underline" href="about.html">About &amp; Contact</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <div data-scroll>
+    <div class="wrapper" data-scroll-content>
+    <div class="project-header">
+        <img class="imgProject scene_element scene_element--transform" src="img/3.jpg">
+        <div class="scene_element scene_element--fadein">
+          <div class="arrowOn" id="scroll">
+            <img src="img/arrow.svg"> 
+            <span class="scroll">Scroll</span>
+          </div>
+        </div>  
+    </div>
+
+      <section class="container-fluid scene_element scene_element--fadein">
+        <div class="wow elementInText animated" data-wow-offset="10">
+        <p class="project-text">
+          <span class="border-text">Chess</span> is a classic game that was written in vanilla Javascript that is desktop only. It also uses Jquery and ChessJS. The goal behind this project was to build a chess game that is impossible to beat. Give it a try and see how you do.
+        </p>
+        <div class="project-details text-anime">
+          <a class="underline space yellow" style="text-decoration: inherit;" href="https://chess-game.now.sh/" target="_blank">Visit The Site</a>
+          <a class="underline space1" href="https://github.com/SirAndrewDillon/chess-game" target="_blank">Check Out The Code</a>
+        </div>
+      </div>
+      </section>
+
+      <!-- PROJECT IMG -->
+      <section class="project container-fluid scene_element scene_element--fadein">
+          <div class="project-img wow elementInImg animated">
+            <img src="img/hokusai/1.png">
+          </div>
+          <div class="project-img wow elementInImg animated">
+            <img src="img/hokusai/2.gif">
+          </div>
+      </section>
+      <div class="next-project container-fluid">
+          <h3 class="scene_element scene_element--fadein">Check out another cool project ?</h3>
+        <div class="next scene_element scene_element--fadein">
+          <a href="blade.html" class="work__link">Gradients Generator</a>
+        </div>
+        <img class="imgNext scene_element scene_element--fadein" alt="Strecke Cover" src="img/4.jpg">
+      </div>  
+    </div>
+  </div>
+</div>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="../code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/jquery-3.4.0.min.js"></script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="../unpkg.com/imagesloaded%404.1.4/imagesloaded.pkgd.min.js"></script>
+  <script src="js/vendor/jquery.smoothState.js"></script>
+  <script src="js/vendor/wow.min.js"></script>
+  <script src="js/vendor/marquee3k.js"></script>
+  <script src="js/vendor/horizontal-scroll.js"></script>
+  <script src="js/vendor/jquery.toasty.js"></script>
+  <script src="js/vendor/charming.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+
+    AOS.init();
+  </script>
+  <script src="../www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>
