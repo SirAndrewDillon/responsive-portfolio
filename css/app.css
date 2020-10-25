@@ -159,6 +159,11 @@ table {
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/AGENTORANGE.TTF") format("TTF"),
+       
+}
 .icon-facebook {
   width: 0.53em;
   height: 1em;
@@ -496,7 +501,6 @@ button.swiper-pagination-bullet {
 .swiper-scrollbar {
   border-radius: 10px;
   position: relative;
-  -ms-touch-action: none;
   background: rgba(0, 0, 0, 0.1);
 }
 .swiper-container-horizontal > .swiper-scrollbar {
@@ -4035,6 +4039,55 @@ body.is-disabled {
     background-position: 200% center;
   }
 }
+.font-dec {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  font-family: 'AGENTORANGE', sans-serif;
+  line-height: 280px;
+  font-size: 11.5rem;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  animation:float 11s ease-in-out ;
+}
+
+@keyframes float {
+  0%,77%{ transform:none; }
+  11%{ transform:translateY(-2px) rotate(-4deg); }
+  77%{ transform:translateY(2px) rotate(4deg); }
+}
+
+/*	
+========================
+			3D Effect
+========================
+*/
+#text3d {
+    transform: skew(3deg, -2deg);
+    text-shadow: 
+      -1px -1px 1px #efede3, 
+      -3px 3px 3px  #d17804, 
+      0px 2px 0 #2c2c2c, 
+      0px 3px 0 #2a2a2a, 
+      0px 4px 0 #282828, 
+      0px 3px 0 #262626, 
+      0px 6px 0 #242424, 
+      0px 7px 0 #222, 
+      0px 8px 0 #202020, 
+      0px 9px 0 #1e1e1e, 
+      0px 10px 0 #1c1c1c, 
+      0px 11px 0 #1a1a1a, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(0, 0, 0, 0.9);
+ }
+
 .home {
   background: #000;
   width: 100%;

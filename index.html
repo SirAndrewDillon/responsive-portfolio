@@ -55,24 +55,24 @@
                     <div class="swiper-wrapper">
                     <div class="homelist__slide swiper-slide"> <a href="netflix.html" data-img="img/cool.png" data-cursor="view">
               <span class="num f3 v-top">01</span>
-              <span>Netflix</span>
+              <span class="font-dec" id="text3d">Netflix</span>
             </a> </div>
                     <div class="homelist__slide swiper-slide"> <a href="news.html" data-img="img/yes.png" data-cursor="view">
               <span class="num f3 v-top">02</span>
-              <span>AI News</span>
+              <span class="font-dec" id="text3d" >AI News</span>
             </a> </div> 
                       <div class="homelist__slide swiper-slide"> <a href="gradient.html" data-img="img/runable.png" data-cursor="view">
               <span class="num f3 v-top">03</span>
-              <span>Gradient App</span>
+              <span class="font-dec" id="text3d" >Gradient App</span>
             </a> </div>
                     <div class="homelist__slide swiper-slide"> <a href="chess.html" data-img="img/mv1.png" data-cursor="view">
               <span class="num f3 v-top">04</span>
-              <span>Chess</span>
+              <span class="font-dec" id="text3d" >Chess</span>
             </a> </div>        
     
                       <div class="homelist__slide swiper-slide"> <a href="covid.html" data-img="img/s.png" data-cursor="view">
               <span class="num f3 v-top">05</span>
-              <span>Covid Tracker</span>
+              <span class="font-dec" id="text3d" >Covid Tracker</span>
             </a> </div>
       
                     </div>
@@ -83,24 +83,24 @@
                     <div class="swiper-wrapper">
                       <div class="homelist__slide swiper-slide"> <a href="netflix.html" data-img="img/cool.png" data-cursor="view">
               <span class="num f3 v-top">01</span>
-              <span>Netflix</span>
+              <span class="font-dec" id="text3d" >Netflix</span>
             </a> </div>
                       <div class="homelist__slide swiper-slide"> <a href="news.html" data-img="img/yes.png" data-cursor="view">
               <span class="num f3 v-top">02</span>
-              <span>AI News</span>
+              <span class="font-dec" id="text3d" >AI News</span>
             </a> </div>
                 <div class="homelist__slide swiper-slide"> <a href="gradient.html" data-img="img/runable.png" data-cursor="view">
               <span class="num f3 v-top">03</span>
-              <span>Gradient App</span>
+              <span class="font-dec" id="text3d" >Gradient App</span>
             </a> </div>
                 <div class="homelist__slide swiper-slide"> <a href="chess.html" data-img="img/mv1.png" data-cursor="view">
               <span class="num f3 v-top">04</span>
-              <span>Chess</span>
+              <span class="font-dec" id="text3d" >Chess</span>
             </a> </div>
       
                       <div class="homelist__slide swiper-slide"> <a href="covid.html" data-img="img/s.png" data-cursor="view">
               <span class="num f3 v-top">06</span>
-              <span>Covid Tracker</span>
+              <span class="font-dec" id="text3d" >Covid Tracker</span>
             </a> </div>
                     </div>
                   </div>
@@ -119,6 +119,8 @@
     </div>
     <!-- END content -->
     <!-- BEGIN scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
     <script id="vertShader" type="shader"> varying vec2 vUv; varying vec3 v_position; uniform float time; uniform float blend; uniform float scrollFactor; uniform sampler2D original; uniform sampler2D target; void main() { vUv = uv; v_position = position.xyz; float roundblend = sin(3.1415926*blend);
       float stepblend = clamp( 2.*(v_position.x *scrollFactor) +3.*blend - 1., 0.,1.); float originalR = texture2D(original,vUv).r; float targetR = texture2D(target,vUv).r; v_position.z = 0.2* mix(originalR,targetR,stepblend) + roundblend*-0.1*sin(v_position.x*1.
       + time/100.); v_position.x = position.x + roundblend*0.3*sin(v_position.z*-8. + v_position.y*3. + v_position.x*1. + blend); vec3 vecPos = (modelViewMatrix * vec4(v_position, 1.0)).xyz; gl_Position = projectionMatrix * vec4(vecPos, 1.0); } </script>
@@ -126,6 +128,7 @@
       = vec3(1.,0.,0.); vec3 color3 = mix(color1,color2,koef); vec2 grid = abs(fract(500.*st/4. - 0.5) - 0.5) / fwidth(500.*st/4.); float color = min(grid.x, grid.y); gl_FragColor = vec4(color3,1. - color); gl_FragColor = vec4(1.,0.,0.,1.); float stepblend
       = clamp(v_position.x + v_position.y +3.*blend - 1., 0.,1.); vec4 originalC = texture2D(original,vUv); vec4 targetC = texture2D(target,vUv); vec4 result = originalC*(1. - stepblend) + targetC*stepblend; gl_FragColor = result*(1. - color); } </script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/word.js"></script>
     <!-- END scripts -->
   </body>
 
